@@ -15,7 +15,7 @@ Create a configuration file by using the default one as template (you can also o
 - **linkedin_scrape_mode** and **linkedin_find_users** must be set to 'true' if you wish to use an .har file as input for the targets identification and company hierarchy definition.
 - **linkedin_har_file** must contain a path to the .har file you wish to use as input.
 - **twitter_key1** and **twitter_key1** must contain the paths to the .json file which has the Twitter API data regarding your authentication. If you wish to use only 1 key, you can only write the path inside the first field and make sure that the field **multi_key** is set to 'false'.
-- **manual_target_mode** and **manual_targets_file** are used to skip the linkedin scraping section and launch the rest of the tool using a manually inserted dataset composed of a list of twitter handles.
+- **manual_target_mode** and **manual_targets_file** are used to skip the linkedin scraping section and launch the rest of the tool using a manually inserted dataset composed of a list of twitter handles. Right now the tool can only run in manual mode due to Twitter API constraints.
 - The field **twitter_target** must contain the Twitter handle of the main target (e.g. '@target')
 - **visual_output** must be set to 'true' if you wish to have a visual output of the analyzed data. (Careful! You will need to manually close the visual popups to proceed with the tool execution, on large projects the executions might require several hours so be careful with this setting)
 - The remaining fields **twitter_\*** are associated with their related section of code inside the tool. You can set some of them to 'false' to avoid their execution.
