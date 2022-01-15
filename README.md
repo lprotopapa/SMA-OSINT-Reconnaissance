@@ -1,4 +1,4 @@
-# social-media-OSINT
+# SMA-OSINT-Reconnaissance
 This projects aims to show an autamated process to perform reconnaissance on a given target.
 We will use OSINT and Social Media Analyitics techniques to gather and analyze the data.
 
